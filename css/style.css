@@ -1,0 +1,74 @@
+/* Gerais */
+
+* {
+    font-family: "Inter", sans-serif;
+}
+
+.text-principal {
+    color: black;
+}
+
+.bg-body {
+    background-color: black;
+}
+
+.container {
+    margin-top: 200px;
+}
+
+/* Alterações nas classes Bootstrap */
+
+.btn-primary {
+    color: white !important;
+    background-color: black !important;
+    border-color: black !important;
+}
+
+.btn-primary:hover {
+    color: black !important;
+    background-color: transparent !important;
+    border-color: black !important;
+}
+
+.text-black:hover {
+    color: #313131 !important;
+}
+
+.nomesEquipe{
+    list-style: none;
+}
+
+.nomesEquipe li{
+    margin-top: 5%;
+}
+.btn-secondary {
+    color: black !important;
+    background-color: white !important;
+    border-color: white !important;
+}
+
+.btn-secondary:hover {
+    color: white !important;
+    background-color: #198754 !important;
+    border-color: #198754 !important;
+}
+
+/* Estilos para a página Por que? */
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.display-1 {
+    font-size: 5rem;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+    .display-1 {
+        font-size: 3.5rem;
+    }
+}
